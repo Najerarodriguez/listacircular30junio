@@ -6,8 +6,8 @@ public class main {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        Lista mLista = new Lista();
-        miLista.inserta (new Persona (2, "emergencias"));
+        Lista miLista = new Lista();
+        miLista.inserta (new Persona ("emergencias", "emergencia",2,5 ));
         System.out.println(miLista);
                 
     }
